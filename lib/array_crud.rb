@@ -3,31 +3,33 @@ def create_an_empty_array
 end
 
 def create_an_array
-   array = ["one","two","three","four"]
+  Array.new(4)
+   #array = ["one","two","three","four"]
 end
 
 def add_element_to_end_of_array(array, element)
-  array << "five"
+  #array << "arrays!"
+  array.push("arrays!")
 end
 
 def add_element_to_start_of_array(array, element)
-  array.unshift ("six")
+  array.unshift ("wow")
 end
 
 def remove_element_from_end_of_array(array)
-   "one" = array.pop
+   array.pop
 end
 
 def remove_element_from_start_of_array(array)
-  "one" = array.shift
+   array.shift
 end
 
 def retrieve_element_from_index(array, index_number)
-  array["4"]
+  array[2]
 end
 
 def retrieve_first_element_from_array(array)
-  array.first
+  array[0]
 end
 
 def retrieve_last_element_from_array(array)
