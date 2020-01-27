@@ -3,7 +3,7 @@ def create_an_empty_array
 end
 
 def create_an_array
-  Array.new
+  Array.new(4)
    array = ["one","two","three","four"]
 end
 
